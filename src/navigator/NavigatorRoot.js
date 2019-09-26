@@ -16,4 +16,4 @@ const AppNavigatorWithNavigationState = ({dispatch, navigator}) => (
 
 const NavigatorRoot = connect(mapStateToProps)(AppNavigatorWithNavigationState);
 
-export { NavigatorRoot };
+export default NavigatorRoot;
